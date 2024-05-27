@@ -52,8 +52,8 @@ const ParentsFeedbackCards = () => {
   };
 
   return (
-    <div className='mt-[2%]' style={{boxSizing:"border-box"}}>
-      <div style={{  textAlign:"right", marginBottom:"10px", width:"91%" }}>
+    <div className='mt-[2%] mb-[5%]' style={{boxSizing:"border-box"}}>
+      <div style={{  textAlign:"right", marginBottom:"10px", width:"91%", padding:"5px" }}>
         <h3 style={{fontFamily:"sans-serif", fontSize:"20px", color:"#D69E0C"}}> Happy Kids,</h3>
         <h3 style={{fontFamily:"sans-serif", fontSize:"20px",  color:"#D69E0C"}}>Satisfied Parents!</h3>
       </div>

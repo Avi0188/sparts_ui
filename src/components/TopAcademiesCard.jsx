@@ -7,7 +7,7 @@ const NextArrow = (props) => {
   const { className, style, onClick } = props;
   return (
     <div
-      className={`${className} block bg-red-500 rounded-full z-10 absolute right-[5px] top-1/2 transform -translate-y-1/2`}
+      className={`${className} block bg-yellow-600 rounded-full z-10 absolute right-[34px] top-1/2 transform -translate-y-1/2`}
       onClick={onClick}
     />
   );
@@ -17,7 +17,7 @@ const PrevArrow = (props) => {
   const { className, style, onClick } = props;
   return (
     <div
-      className={`${className} block bg-red-500 rounded-full z-10 absolute left-5 top-1/2 transform -translate-y-1/2`}
+      className={`${className} block bg-yellow-600 rounded-full z-10 absolute left-7 top-1/2 transform -translate-y-1/2`}
       onClick={onClick}
     />
   );
@@ -81,12 +81,12 @@ const TopAcademiesCard = () => {
 
   return (
     <div className="relative bg-blue-500">
-      <div className="mb-[1%] !w-[15%] ml-5">
-        <span className="ml-1 text-white">Explore Our Top Academies</span>
+      <div className="mb-[1%] !w-[15%] ml-[3%]">
+        <span className=" text-white">Explore Our Top Academies</span>
       </div>
       <Slider {...settings} >
         {topacd.map((el, index) => (
-          <div className="carousel-cards w-[90%]  ml-[5%] rounded-lg" key={el.id}>
+          <div className="carousel-cards w-[90%]  ml-[7%] rounded-lg" key={el.id}>
             <img className="w-[85%] rounded-[5px]" src={el.image} alt={el.name} />
             <h3 style={{color:"#FFFFF"}}>{el.name}</h3>
             <p style={{color:"#FFFFF"}}>{el.location}</p>

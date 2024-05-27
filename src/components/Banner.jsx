@@ -34,8 +34,8 @@ const Banner = () => {
         />
       ))}
 
-      <div className="banner-overlay absolute  justify-center  text-center text-black ">
-      <h1 className="text-l font-bold mb-6  w-[25%] overflow-wrap break-word">
+      <div className="banner-overlay absolute  text-black  ">
+      <h1 className="text-l font-bold mb-6 ml-[3%] w-[25%] overflow-wrap break-word">
           Find the Best Activity for your Child!
             
         </h1>

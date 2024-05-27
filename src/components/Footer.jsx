@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <div className="bg-yellow-600 mt-[3%] text-center pb-5 pt-5">
+    <div className="bg-yellow-600 mt-[5%] text-center pb-5 pt-5 ">
       <h2 className="m-1">Stay Updated</h2>
       <p className="m-1">Get the latest updates on academies near you!</p>
       <div>

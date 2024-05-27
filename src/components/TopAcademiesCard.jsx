@@ -28,25 +28,25 @@ const TopAcademiesCard = () => {
     {
       id: 1,
       name: 'BrainArt',
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE0s6Dr0hP8rJotEDKSaLFnGz8Xk45qxy_Dw&s',
+      image: 'https://media.istockphoto.com/id/1072473650/photo/students-learning-computer-programming-stock-image.jpg?s=612x612&w=0&k=20&c=wy5LrD8RZsjeq3HOiuSjpe7YYPhmaxl2mNoQXCDWN24=',
       location: 'HSR',
     },
     {
       id: 2,
       name: 'BrainArt',
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE0s6Dr0hP8rJotEDKSaLFnGz8Xk45qxy_Dw&s',
+      image: 'https://media.istockphoto.com/id/1186708201/photo/indian-little-girl-writing-in-paper.jpg?s=612x612&w=0&k=20&c=vpRq_nW9WpMWAuePXWcwFgYg4_rahklj5erP_NNK-4Y=',
       location: 'HSR',
     },
     {
       id: 3,
       name: 'BrainArt',
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE0s6Dr0hP8rJotEDKSaLFnGz8Xk45qxy_Dw&s',
+      image: 'https://media.istockphoto.com/id/2149773953/photo/happy-teacher-and-schoolboy-giving-each-other-high-five-on-a-class.jpg?s=612x612&w=0&k=20&c=775mRwj3XO4NWTVqb94C2DktX2HO_MuhQ-A13qjAXU8=',
       location: 'HSR',
     },
     {
       id: 4,
       name: 'BrainArt',
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE0s6Dr0hP8rJotEDKSaLFnGz8Xk45qxy_Dw&s',
+      image: 'https://media.istockphoto.com/id/1461631505/photo/group-of-indian-young-student-using-social-media-or-watching-entertainment-on-mobile-phone.jpg?s=612x612&w=0&k=20&c=QPWACfuRwfVeMuN_usY6lMUk6B-NKkg8AZd4hLq9UIE=',
       location: 'HSR',
     },
   ];
@@ -87,7 +87,11 @@ const TopAcademiesCard = () => {
       <Slider {...settings} >
         {topacd.map((el, index) => (
           <div className="carousel-cards w-[90%]  ml-[7%] rounded-lg" key={el.id}>
-            <img className="w-[85%] rounded-[5px]" src={el.image} alt={el.name} />
+         <img
+  className="w-[85%] rounded-[5px] h-[50%] transform transition-transform duration-300 hover:scale-110"
+  src={el.image}
+  alt={el.name}
+/>
             <h3 style={{color:"#FFFFF"}}>{el.name}</h3>
             <p style={{color:"#FFFFF"}}>{el.location}</p>
             {index === topacd.length - 1 && (

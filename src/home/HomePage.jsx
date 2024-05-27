@@ -8,14 +8,15 @@ import Footer from '../components/Footer'
 const HomePage = () => {
   return (
     <div>
-        <div>
+        
 
         <Navbar />
-        </div>
+   
 
-        <div>
+       
             <Banner />
-        </div>
+        
+      
         <TopAcademiesCard />
 
         <ParentsFeedbackCards />
